@@ -194,6 +194,61 @@ main #projects .grid article:hover h3 {
     opacity: 1;
 }
 
+.team-articles article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team h2 {
+    text-align: center;
+}
+
+.giro {
+    max-width: max-content;
+
+}
+
+.giro figure {
+
+
+    margin: 3.75rem;
+    max-width: 12.5rem;
+
+    transform: rotateZ(45deg);
+    overflow: hidden;
+    transition: 1s;
+
+}
+
+.giro figure img {
+
+    transform: rotateZ(-45deg) scale(2);
+
+}
+
+.giro:hover :is(figure, img) {
+    transform: rotatez(0deg);
+}
+
+.team p {
+    text-align: center;
+}
+
+.hiring {
+    margin: var(--space) 0;
+    background-color: var(--colorButton);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.team-articles div p:last-child {
+    color: var(--secondaryColor);
+}
 
 /*fin projects*/
 
@@ -247,6 +302,9 @@ main #projects .grid article:hover h3 {
         grid-column: 2;
         grid-row: 1/3;
     }
+
+
+
 }
 
 @media(min-width: 87.5rem) {
