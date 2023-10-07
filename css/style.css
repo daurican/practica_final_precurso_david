@@ -194,6 +194,8 @@ main #projects .grid article:hover h3 {
     opacity: 1;
 }
 
+/*fin projects*/
+
 .team-articles article {
     display: flex;
     flex-direction: column;
@@ -201,7 +203,7 @@ main #projects .grid article:hover h3 {
     justify-content: center;
 }
 
-.team h2 {
+h2 {
     text-align: center;
 }
 
@@ -250,7 +252,24 @@ main #projects .grid article:hover h3 {
     color: var(--secondaryColor);
 }
 
-/*fin projects*/
+
+
+
+.expertise article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.expertise article div {
+    text-align: center;
+    padding: 0.625rem 0;
+}
+
+.expertise div p {
+    color: var(--secondaryColor);
+}
 
 
 /*media queries*/
