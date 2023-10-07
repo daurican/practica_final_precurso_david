@@ -351,6 +351,14 @@ h2 {
         width: 25%;
     }
 
+    h2 {
+        text-align: left;
+    }
+
+    .expertise article {
+        width: 33.333%;
+    }
+
 
 }
 
