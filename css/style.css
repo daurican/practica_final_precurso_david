@@ -196,6 +196,11 @@ main #projects .grid article:hover h3 {
 
 /*fin projects*/
 
+.about {
+    max-width: var(--maxWidth);
+    margin: 0 auto;
+}
+
 .team-articles article {
     display: flex;
     flex-direction: column;
@@ -205,6 +210,7 @@ main #projects .grid article:hover h3 {
 
 .about h2 {
     text-align: center;
+    padding-top: calc(var(--space) * 5);
 }
 
 .giro {
@@ -386,6 +392,21 @@ main #projects .grid article:hover h3 {
         width: 33.333%;
     }
 
+    .work ul li span:last-child {
+        opacity: 1;
+    }
+
+    .work ul li span:first-child {
+        opacity: 0;
+    }
+
+    .work p br {
+        display: none;
+    }
+
+    .work div.active {
+        display: none;
+    }
 
 }
 
