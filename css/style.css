@@ -317,6 +317,22 @@ main #projects .grid article:hover h3 {
         padding: 0em;
 
     }
+
+    .hiring p br {
+        display: none;
+    }
+
+    .team-articles {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .team-articles article {
+        width: 25%;
+    }
+
+
 }
 
 /* final media queries*/
